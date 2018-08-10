@@ -51,7 +51,7 @@ public class UseInfoTest {
 	@Test
 	public void testGetUserAge() 
 	{
-		assertEquals(new UseInfo().getUserAge(),("22"));
+		assertEquals(new UseInfo().getUserAge(),("25"));
 	}
 
 	@Test
