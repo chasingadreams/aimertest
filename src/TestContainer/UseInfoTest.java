@@ -39,25 +39,25 @@ public class UseInfoTest {
 	@Test
 	public void testGetUserName()
 	{
-		assertEquals(new UseInfo().getUserName(),("ÂµÃÂ°ÃÃ€Â­"));
+		assertEquals(new UseInfo().getUserName(),("µÏ°ÍÀ­"));
 	}
 
 	@Test
 	public void testGetUserId() 
 	{
-		assertEquals(new UseInfo().getUserId(),("30"));
+		assertEquals(new UseInfo().getUserId(),("10"));
 	}
 
 	@Test
 	public void testGetUserAge() 
 	{
-		assertEquals(new UseInfo().getUserAge(),("25"));
+		assertEquals(new UseInfo().getUserAge(),("24"));
 	}
 
 	@Test
 	public void testGetuserSex() 
 	{
-		assertEquals(new UseInfo().getuserSex(),("Ã„Ã"));
+		assertEquals(new UseInfo().getuserSex(),("ÄĞ"));
 	}
 
 }
