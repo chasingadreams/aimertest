@@ -47,7 +47,7 @@ public class CalculateTest {
     {
         System.out.println("this is testSubstract()...");  
         int result = Calculate.substract(12, 2);
-        assertEquals("减法有问题", 10, result); 
+        assertEquals("减法有问题", 9, result); 
     }
 
     @Test
