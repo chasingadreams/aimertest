@@ -9,7 +9,7 @@ public class UseInfoTest {
 	@Test
 	public void testGetUserName()
 	{
-		assertEquals(new UseInfo().getUserName(),("µœ∞Õ¿≠"));
+		assertEquals(new UseInfo().getUserName(),("µœ∞Õ¿≠7"));
 	}
 
 	@Test

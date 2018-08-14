@@ -4,7 +4,7 @@ public class UseInfo {
 
     public String getUserName()
     {
-        return "µœ∞Õ¿≠";
+        return "µœ∞Õ¿≠7";
     }
 
     public String getUserId()
