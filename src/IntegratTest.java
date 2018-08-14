@@ -1,4 +1,5 @@
 
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 import org.junit.runner.JUnitCore;
@@ -6,14 +7,20 @@ import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
 public class IntegratTest {
-	 public static void main(String[] args) {
-		 
-	        Result result = JUnitCore.runClasses(CalculateTest.class, UseInfoTest.class);
-	        for (Failure fail : result.getFailures()) {
-	            System.out.println(fail.toString());
-	        }
-	        if (result.wasSuccessful()) {
-	            System.out.println("All tests finished successfully...");
-	        }
-	    }
+	
+	public static void main(String[] args) {
+		testmethod();
+	}
+
+	@Test
+	public static  void testmethod() {
+		Result result = JUnitCore.runClasses(CalculateTest.class, UseInfoTest.class);
+		for (Failure fail : result.getFailures()) {
+			System.out.println(fail.toString());
+		}
+		if (result.wasSuccessful()) {
+			System.out.println("All tests finished successfully...");
+		}
+	}
+
 }
