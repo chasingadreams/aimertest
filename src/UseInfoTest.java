@@ -11,13 +11,13 @@ import org.junit.Test;
 public class UseInfoTest {
 
 	@BeforeClass
-	public static void setUpBeforeClass() throws Exception 
+	public void setUpBeforeClass() throws Exception 
 	{
 		System.out.println("this is setUpBeforeClass()...");
 	}
 
 	@AfterClass
-	public static void tearDownAfterClass() throws Exception 
+	public void tearDownAfterClass() throws Exception 
 	{
 		System.out.println("this is tearDownAfterClass()...");
 	}

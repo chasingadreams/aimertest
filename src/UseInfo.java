@@ -2,7 +2,7 @@
 
 public class UseInfo {
 
-    public  String getUserName()
+    public String getUserName()
     {
         return "µœ∞Õ¿≠";
     }
