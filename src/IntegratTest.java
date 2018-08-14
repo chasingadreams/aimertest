@@ -7,13 +7,8 @@ import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
 public class IntegratTest {
-	
-	public static void main(String[] args) {
-		testmethod();
-	}
-
 	@Test
-	public static  void testmethod() {
+	public void testmethod() {
 		Result result = JUnitCore.runClasses(CalculateTest.class, UseInfoTest.class);
 		for (Failure fail : result.getFailures()) {
 			System.out.println(fail.toString());
