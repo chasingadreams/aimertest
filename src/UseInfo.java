@@ -14,7 +14,7 @@ public class UseInfo {
 
     public  String getUserAge()
     {
-        return "24";
+        return "23";
     }
 
     public  String getuserSex()
